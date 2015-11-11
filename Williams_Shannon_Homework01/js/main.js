@@ -122,15 +122,15 @@ var theCanvas03 = document.getElementById('canvas03');
             //draw star
             ctx03.beginPath();
             ctx03.moveTo(100, 100);
-            ctx03.lineTo(108, 96);
-            ctx03.lineTo(129, 100);
-            ctx03.lineTo(114, 113);
-            ctx03.lineTo(117, 134);
-            ctx03.lineTo(100, 124);
-            ctx03.lineTo(81, 134);
-            ctx03.lineTo(84, 113);
-            ctx03.lineTo(69, 100);
-            ctx03.lineTo(90, 96);
+            ctx03.lineTo(108, 104);
+            ctx03.lineTo(129, 108);
+            ctx03.lineTo(114, 117);
+            ctx03.lineTo(117, 138);
+            ctx03.lineTo(100, 128);
+            ctx03.lineTo(81, 138);
+            ctx03.lineTo(84, 117);
+            ctx03.lineTo(69, 104);
+            ctx03.lineTo(90, 100);
             ctx03.lineTo(100, 100);
             ctx03.closePath();
             ctx03.fill();
@@ -214,10 +214,13 @@ if (theCanvas06) {
     var ctx06 = theCanvas06.getContext('2d');
 
     if(ctx06){
+    
+    console.log("beep");
 
         var srcImg = document.getElementById("img01");
 
         ctx06.drawImage(srcImg, 0,0);
+    
 
         //ctx06.drawImage(srcImg, 10, 10, 100, 75);
 
