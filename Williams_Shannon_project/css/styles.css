@@ -1,0 +1,17 @@
+body{
+    width: 750px;
+    margin: auto;
+    background-color: rgba(37, 6, 76, 0.3);
+}
+
+h1{
+    text-align: center;
+    color: #25064c;
+}
+
+form{
+    width: 200px;
+    height: 200px;
+    margin: auto;
+}
+
