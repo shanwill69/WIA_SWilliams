@@ -47,7 +47,8 @@
                 </section>
 
                 <section>
-                    <p>iCheck is a jQuery plugin used to customize radio buttons and check boxes.</p>
+                    <h2>iCheck</h2>
+                    <p>is a jQuery plugin used to customize radio buttons and check boxes.</p>
 
                 </section>
 
@@ -58,16 +59,73 @@
 &lt;script src=&quot;http://ajax.googleapis.com/ajax/libs/jquery/1.9.1/jquery.min.js&quot;&gt;&lt;/script&gt;
 &lt;script src=&quot;./jquery.icheck.min.js&quot;&gt;&lt;/script&gt;
                         </pre></code>
+                </section>
 
-                        Now you need to initialize iCheck with:
+                <section>
+                    <section>
+                        <p>Now you need to initialize iCheck with:</p>
 
                         <pre><code>
                         $(‘input’).iCheck();
                         </code></pre>
-                    </p>
 
+                    </section>
+
+                    <section>
+                        <p>This function will search for every radio button and checkbox.</p>
+                    </section>
+
+                    <section>
+                        <p>iCheck automatically wraps them in a <div> and ignores other elements
+                        such as text or textarea.</p>
+                    </section>
+
+                    <section>
+                        <p>The default class given to the &lt;div&gt; wrapper is icheckbox and iradio.</p>
+                    </section>
+
+                    <section>
+                        <p>These can be changed to create even further customization.  If you want
+                            all checkboxes to be the same except for one special one, you can use:</p>
+
+                        <pre><code>
+$(&lsquo;input&rsquo;).iCheck({ checkboxClass: &lsquo;mycheckbox&rsquo;,});
+                        </code></pre>
+                    </section>
                 </section>
-              
+
+                <section>
+                    <p>There are other functions such as checkedClass and hoverClass.</p>
+                </section>
+
+                <section>
+                    <section>
+                    <p>iCheck has 25 built-in options and 6 “skins”.  Simply link a stylesheet
+                        to your document.</p>
+
+                    <pre><code>
+&lt;link rel=&rdquo;stylesheet&rdquo; href= &ldquo;css/square/pink.css&rdquo;&gt;
+
+                    </code></pre>
+                    </section>
+
+                    <section>
+                        <img src="images/lineSkin.png" style="width:700px;height:300px;">
+                    </section>
+
+                    <section>
+                        <img src="images/squareSkin.png" style="width:700px;height:300px;">
+                    </section>
+                </section>
+
+                <section>
+                    <h2>Browser Support</h2>
+                    <p>iCheck is verified to work in Internet Explorer 6+, Firefox 2+, Opera 9+,
+                        Google Chrome and Safari browsers. Should also work in many others.</p>
+                    <p>Mobile browsers (like Opera mini, Chrome mobile, Safari mobile, Android
+                        browser, Silk and others) are also supported. Tested on iOS (iPad, iPhone,
+                        iPod), Android, BlackBerry and Windows Phone devices.</p>
+                </section>
     		
                 	
 
